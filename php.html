@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta meta name="viewport" content="width=device-width, user-scalable=no" />
+	<title>Editor</title>
+    <link rel="stylesheet" type="text/css" href="lib/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" type="text/css" href="lib/codemirror/theme/ambiance.css">
+    <script src="lib/jQuery/jQuery.js"></script>
+    <script src="lib/codemirror/lib/codemirror.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="editor-action.js"></script>
+    <script src="lib/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="lib/codemirror/mode/xml/xml.js"></script>
+    <script src="lib/codemirror/mode/javascript/javascript.js"></script>
+    <script src="lib/codemirror/mode/css/css.js"></script>
+    <script src="lib/codemirror/mode/clike/clike.js"></script>
+    <script src='lib/codemirror/mode/php/php.js'></script>
+    <script src='lib/codemirror/addon/selection/active-line.js'></script>
+    <script src='lib/codemirror/addon/edit/matchbrackets.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="flagman.css">
+</head>
+<body>
+    <section class="phpe">
+<div class="row">
+    <h1>PHP Code editor</h1>
+    <textarea class="codemirror-textarea" id="ed_code"></textarea>
+    <div class="app-row">
+        <button class="btn-action" id="run">Run</button>
+        <button class="btn-action" id="clear">Clear</button>
+        <button class="btn-action" id="refresh">Refresh</button>
+    </div>
+</div>
+<div class="app-row">	
+  <div id="result"></div>
+</div>	
+</section>
+<script src="php.js"></script>
+</body>
+</html>
