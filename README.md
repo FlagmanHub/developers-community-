@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -63,5 +62,5 @@
 <body>
     <section class="main">
         <h1>Welcome to FlagmanHub</h1>
-        <a href="flagman.html">Let's go</a>
+        <a href="login.html">Let's go</a>
     </section>
