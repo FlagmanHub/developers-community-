@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 800px)
+{
+
+
+
+/*********Login**********/
+
+
+.login 
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgba(0,0,0,0.06);
+}
+
+
+
+.login p
+{
+    position: absolute;
+    font-size: 1em;
+    color: #777;
+    left: 3.5%;
+    margin-top: 70rem;
+}
+
+
+
+.login .loge
+{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background: #fff;
+    margin-top: 8rem;
+}
+
+
+
+
+.login .loge h1
+{
+    position: absolute;
+    font-size: 1.6em;
+    margin-top: 2rem;
+}
+
+
+
+.login .loge form 
+{
+    margin-top: 7rem;
+}
+
+
+
+.login .loge form #tix
+{
+    font-size: 1.2em;
+}
+
+
+
+.login .loge form #fname
+{
+    width: 260px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    background: rgba(0,0,0,0.08);
+    font-size: 1.1em;
+    padding: 8px;
+    margin-top: 0.3rem;
+}
+
+
+
+
+
+
+.login .loge form .typ 
+{
+    margin-top: 1rem;
+}
+
+
+
+.login .loge form .typ #tix2
+{
+    margin: 0;
+}
+
+
+
+.login .loge form .button 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.login .loge form .button button 
+{
+    padding: 8px 25px;
+    display: inline-block;
+    background: orange;
+    color: #000;
+    font-size: 1.1em;
+    border-radius: 7px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+}
