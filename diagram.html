@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<meta meta name="viewport" content="width=device-width, user-scalable=no" />
+<title>FlagmanHub™</title>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <link rel="stylesheet" href="flagman.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <section class="diagram">
+        <h1>System diagram</h1>
+    <p>It shows all actions from platform</p>
+    <h3>October, 2022</h3>
+        
+        <canvas id="myChart" width="0" height="0"></canvas>
+<script>
+const ctx = document.getElementById('myChart').getContext('2d');
+const myChart = new Chart(ctx, {
+    type: 'polarArea',
+    data: {
+  labels: [
+    'Coding',
+    'Using',
+    'Working',
+    'Speed',
+    'Security',
+    'Chat & Talking'
+  ],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [80, 55, 45, 66, 95,50],
+    backgroundColor: [
+      'rgb(255, 99, 132)',
+      'rgb(75, 192, 192)',
+      'rgb(255, 205, 86)',
+      'rgb(201, 203, 207)',
+      'rgb(54, 162, 235)',
+      'rgb(9,115,162)'
+    ]
+  }]
+},
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
+
+<div class="dowii">
+    <h5>©FlagmanHub™ security</h5>
+</div>
+    </section>
