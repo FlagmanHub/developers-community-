@@ -76,8 +76,8 @@ var data_V1 = [{
   };
   
   var svg = d3.select("#pieChart").append("svg")
-    .attr("width", '100%')
-    .attr("height", '100%')
+    .attr("width", '50%')
+    .attr("height", '50%')
     .attr('viewBox', '0 0 ' + Math.min(width, height) + ' ' + Math.min(width, height))
     .attr('preserveAspectRatio', 'xMinYMin')
     .append("g")
