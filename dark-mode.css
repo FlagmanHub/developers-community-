@@ -1,0 +1,1044 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    max-width: 395px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px)
+{
+
+
+ .flagman 
+{
+    position: absolute;
+    width: 100%;
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    background: #040d21;
+}
+
+
+.flagman .fla 
+{
+    z-index: 555;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #2b2932;
+}
+
+
+
+.flagman .fla #logo
+{
+    position: absolute;
+    width: 28px;
+    background: #a9a9f8;
+    padding: 3px;
+    border-radius: 8px;
+    margin: 0;
+    margin-left: 20px;
+}
+
+
+
+
+.flagman #plus 
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.0);
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 345px;
+}
+
+
+
+.flagman #plus:hover
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background: rgba(255,255,255,0.08);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+
+.flagman #plus img 
+{
+    width: 24px;
+}
+
+
+
+
+
+
+.flagman #switchMode
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 185px;
+}
+
+
+
+
+
+.flagman #mark
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.0);
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 305px;
+}
+
+
+
+.flagman #mark:hover
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background: rgba(255,255,255,0.08);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+
+.flagman #mark img 
+{
+    width: 24px;
+}
+
+
+
+
+
+
+
+.flagman #library
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.0);
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 265px;
+}
+
+
+
+.flagman #library:hover
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background: rgba(255,255,255,0.08);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+
+.flagman #library img 
+{
+    width: 24px;
+}
+
+
+
+
+
+.flagman #user
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.0);
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 225px;
+}
+
+
+
+.flagman #user:hover
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background: rgba(255,255,255,0.08);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+
+.flagman #user img 
+{
+    width: 24px;
+}
+
+
+
+
+
+
+
+.flagman #version 
+{
+    position: absolute;
+    font-size: 1.1em;
+    color: #000;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    border-radius: 13px;
+    margin: 0;
+    margin-left: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+.flagman .main 
+{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+  background: #2b2932;
+    border-bottom-left-radius: 22px;
+   border-bottom-right-radius: 22px;
+   border-bottom: 1px solid rgba(255,255,255,0.6);
+}
+
+
+
+:root {
+	--border: 2px solid #D0D0D0;
+
+	--grey: #8F8F8F;
+	--light-grey: rgba(0,0,0,0.08);
+	--purple: #5B35D5;
+}
+
+
+
+.flagman .main .cou 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.flagman .main .select {
+    z-index: 10;
+	max-width: 300px;
+	width: 100%;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 8rem;
+}
+.flagman .main .custom-select {
+    z-index: 10;
+	width: 280px;
+	height: 45px;
+	background: #2b2932;
+	border: var(--border);
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	transition: all .3s ease;
+	grid-gap: 10px;
+}
+.flagman .main .custom-select * {
+	pointer-events: none;
+}
+.flagman .main .select.show .custom-select {
+	background: var(--light-grey);
+}
+.flagman .main .custom-select span {
+	display: block;
+	background: #2b2932;
+}
+.flagman .main .custom-select .label {
+	font-size: 1em;
+	font-weight: 600;
+	color: #fff;
+}
+.flagman .main .custom-select .value {
+	display: flex;
+	align-items: center;
+	grid-gap: 10px;
+	color: rgba(255,255,255,0.5);
+}
+.flagman .main .custom-select i {
+	transition: all .3s ease;
+}
+.flagman .main .select.show .custom-select i {
+	transform: rotateZ(180deg);
+}
+.flagman .main .option {
+	position: absolute;
+	top: calc(100% + 10px);
+	max-height: 0;
+	overflow-y: hidden;
+	width: 100%;
+	transition: all .3s;
+	z-index: 500;
+}
+.flagman .main .select.show .option {
+	max-height: 280px;
+}
+.flagman .main .custom-option {
+	border-radius: 10px;
+	border: var(--border);
+	padding: 10px 0;
+	width: 100%;
+	max-height: 260px;
+	color: #fff;
+	overflow-y: auto;
+	scrollbar-width: none; /* For firefox */
+}
+.flagman .main .custom-option::-webkit-scrollbar {
+	display: none; /* For chrome browser */
+}
+.flagman .main .custom-option li {
+	padding: 10px 10px 10px 24px;
+	display: flex;
+	align-items: center;
+	grid-gap: 10px;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.flagman .main .custom-option li:hover {
+	background: var(--light-grey);
+	color: var(--purple);
+}
+
+
+
+
+.flagman .main .container1
+{
+    margin-top: 11rem;
+}
+
+
+
+
+
+.flagman .main path {
+  cursor: pointer;
+}
+
+.flagman .main form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto
+}
+
+.flagman .main input {
+  border: 5px dotted;
+  width: 40%;
+}
+
+.flagman .main #pieChart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto
+}
+
+.flagman .main .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.flagman .main #segmentText {
+  width: 100%;
+  padding: 20px;
+  font-size: 1em;
+  text-align: centre;
+  margin-top: -1rem;
+}
+
+
+
+
+.flagman .main #segmentTitle {
+    font-size: 1.3em;
+  margin-left: 20px;
+  margin-top: -4rem;
+}
+
+
+
+
+
+
+/*****Main2*****/
+
+
+.flagman .main2 
+{
+    position: absolute;
+    width: 370px;
+    height: 300px;
+    background: #2b2932;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    border-radius: 15px;
+    margin-top: 45rem;
+}
+
+
+
+.flagman .main2 h1 
+{
+    position: absolute;
+    font-size: 1.6em;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+.flagman .main2 a .filtere
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0%;
+    display: flex;
+    align-items: center;
+  background: #2b2932;
+    margin-top: 4rem;
+}
+
+
+
+.flagman .main2 a .filtere:hover 
+{
+  background: rgba(255,255,255,0.3);
+    transition: 0.2s;
+}
+
+
+
+.flagman .main2 a .filtere .fil1
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(182,197,255);
+    margin-top: 0rem;
+    margin-left: 17px;
+}
+
+
+
+.flagman .main2 a .filtere .fil1 img 
+{
+    position: absolute;
+    width: 16px;
+}
+
+
+
+
+
+.flagman .main2 a .filtere p
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #fff;
+    margin: 0;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+.flagman .main2 a .filtere2
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    background: #2b2932;
+    margin-top: 9rem;
+}
+
+
+
+.flagman .main2 a .filtere2:hover 
+{
+    background: rgba(255,255,255,0.3);
+    transition: 0.2s;
+}
+
+
+
+.flagman .main2 a .filtere2 .fil2
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(247,44,44);
+    margin-top: 0rem;
+    margin-left: 17px;
+}
+
+
+
+.flagman .main2 a .filtere2 .fil2 img 
+{
+    position: absolute;
+    width: 17px;
+}
+
+
+
+
+
+.flagman .main2 a .filtere2 p
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #fff;
+    margin: 0;
+    margin-left: 70px;
+}
+
+
+
+
+
+.flagman .main2 a .filtere3
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    background: #2b2932;
+    margin-top: 14rem;
+}
+
+
+
+.flagman .main2 a .filtere3:hover 
+{
+ background: rgba(255,255,255,0.3);
+    transition: 0.2s;
+}
+
+
+
+.flagman .main2 a .filtere3 .fil3
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #000;
+    margin-top: 0rem;
+    margin-left: 17px;
+}
+
+
+
+.flagman .main2 a .filtere3 .fil3 img 
+{
+    position: absolute;
+    width: 16px;
+}
+
+
+
+
+
+.flagman .main2 a .filtere3 p
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #fff;
+    margin: 0;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+ .flagman .main2 a .filtere4
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    background: #2b2932;
+    margin-top: 19rem;
+}
+
+
+
+.flagman .main2 a .filtere4:hover 
+{
+  background: rgba(255,255,255,0.3);
+    transition: 0.2s;
+}
+
+
+
+.flagman .main2 a .filtere4 .fil4
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #7e29f1;
+    margin-top: 0rem;
+    margin-left: 17px;
+}
+
+
+
+.flagman .main2 a .filtere4 .fil4 img 
+{
+    position: absolute;
+    width: 16px;
+}
+
+
+
+
+
+.flagman .main2 a .filtere4 p
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #fff;
+    margin: 0;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+ .flagman .main2 a .filtere5
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    background: #2b2932;
+    margin-top: 24rem;
+}
+
+
+
+.flagman .main2 a .filtere5:hover 
+{
+ background: rgba(255,255,255,0.3);
+    transition: 0.2s;
+}
+
+
+
+.flagman .main2 a .filtere5 .fil5
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+ background: #fff;
+    margin-top: 0rem;
+    margin-left: 17px;
+}
+
+
+
+.flagman .main2 a .filtere5 .fil5 img 
+{
+    position: absolute;
+    width: 16px;
+}
+
+
+
+
+
+.flagman .main2 a .filtere5 p
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #fff;
+    margin: 0;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+.flagman .partners
+{
+    position: absolute;
+    width: 320px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: #040d21;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-top: 82rem;
+}
+
+
+
+
+.flagman .partners #first
+{
+    position: absolute;
+    font-size: 1.7em;
+    color: #fff;
+    margin: 0;
+    margin-left: 25px;
+}
+
+
+
+
+.flagman .partners #second
+{
+    position: absolute;
+    font-size: 1.9em;
+    color: #fff;
+    margin: 0;
+    margin-left: 290px;
+}
+
+
+
+
+
+ 
+
+
+
+
+/********About********/
+
+
+.about 
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #040d21;
+    margin-top: 93rem;
+}
+
+
+.about #cont
+{
+    margin-top: -25rem;
+}
+
+
+.about .tooltip
+{
+    background: #040d21;
+}
+
+
+.about .tooltip,
+.container__sources:before,
+.container__build:before,
+.container__deploy:before {
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  color: #fff;
+  background: #ffb238;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 2.5px;
+}
+.card,
+.container__sources div,
+.container__build div {
+  line-height: 2;
+  background: #fff;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #e6e6e6;
+}
+
+
+.about #power
+{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+
+
+.about {
+  background: #040d21;
+  height: 1200px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 90rem;
+}
+.about svg {
+  height: 5rem;
+}
+.about svg line {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-dasharray: 2px 20px;
+  animation: animateline 5s linear both infinite;
+}
+h3 {
+  font-size: 1rem;
+  color: #411fb2;
+}
+p {
+  font-size: 0.96rem;
+  font-weight: 300;
+}
+.container__sources {
+  display: flex;
+  border-radius: 10px;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  position: relative;
+}
+.container__sources:before {
+  content: 'data sources';
+}
+.container__sources div {
+  text-align: left;
+  margin: 0 1rem;
+}
+.container__build {
+  padding: 10vh 10vw;
+  border-radius: 10px;
+  background: #f9f9f9;
+  position: relative;
+}
+.container__build:before {
+  content: 'build';
+}
+.container__build div {
+  margin: 2rem 0;
+}
+.container__build div svg {
+  width: 4rem;
+  height: auto;
+  fill: #5f39dd;
+}
+.container__deploy {
+  position: absolute;
+  width: 300px;
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 63rem;
+}
+.container__deploy:before {
+  content: 'deploy';
+}
+@media (max-width: 700px) {
+  .container__sources {
+    flex-direction: column;
+  }
+  .container__sources div {
+    margin: 1rem 0;
+  }
+}
+@-moz-keyframes animateline {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -5rem;
+  }
+}
+@-webkit-keyframes animateline {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -5rem;
+  }
+}
+@-o-keyframes animateline {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -5rem;
+  }
+}
+@keyframes animateline {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -5rem;
+  }
+}
+
+
+
+.about marquee
+{
+    position: absolute;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 115rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
